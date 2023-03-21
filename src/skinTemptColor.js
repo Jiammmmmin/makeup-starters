@@ -5,8 +5,10 @@ import React, { useRef, useEffect} from 'react';
  
 
 export function SkinTemptColor(props){
+
+
     let preview = document.getElementById("preview");
-    let recordingTimeMS = 5000;
+    let recordingTimeMS = 3000;
     let recording = document.getElementById("recording");
 
     function wait(delayInMS) {
@@ -71,10 +73,6 @@ export function SkinTemptColor(props){
            
            
            
-              
-             
-              
-              
         }
         
     }
@@ -91,7 +89,7 @@ export function SkinTemptColor(props){
             }
         } 
             else {
-                ///startRecording(null, null);
+                //startRecording(null, null);
             }
     }
     return (
