@@ -36,22 +36,28 @@
         </header>
         <main>
             <div class="main-body">
-                <button> start testing</button>
+                
                 <p>this function will help you to know your skin Tempterature</p>
                 <p>camera required</p>
                 <div class="left">
-                    <button id="startButton" class="button">Start Recording</button>
+                    <div id="startButton" class="button">Start Recording</div>
                     <h2>Preview</h2>
                     <video id="preview" width="160" height="120" autoplay muted></video>
                   </div>
+                  
                   <div class="right">
-                    <button id="stopButton" class="button">Stop Recording</button>
+                    <div id="stopButton" class="button">Stop Testing</div>
                     <h2>Recording</h2>
                     <video id="recording" width="160" height="120" controls></video>
                     <a id="downloadButton" class="button"> Download </a>
                   </div>
+                  
+                  <div class="bottom">
+                    <pre id="log"></pre>
+                  </div>
                 
             </div>
         </main>
+        <script src="src/SkinTemptColor.js"></script>
     </body>
 </html>
